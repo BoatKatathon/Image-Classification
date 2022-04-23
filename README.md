@@ -44,6 +44,18 @@ import tensorflow as tf
 print(tf.__version__)
 print(len(tf.config.list_physical_devices('GPU'))>0)
  ```
+# Step 11: Visual Studio code
+- [Visual Studio code](https://visualstudio.microsoft.com/)
+## ลง Extensions
+ - python
+ - jupyter
+ - pylance
+### ของตกแต่งใน Vscode
+  - vscode-icons
+  - Color Highlight
+  - One Dark Pro
+  - Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+  - Doxygen Documentation Generator
 # PIP Installation activate tensorflow
 - pip install opencv-contrib-python 
 - pip install keras 
