@@ -1,0 +1,56 @@
+# image-classification
+- BY.Katathron Lapwong ชั้นปีที่ 3 
+# Video learning Tensorflow
+- [credit : Jeff Heaton](https://www.youtube.com/watch?v=OEFKlRSd8Ic)
+# Software Installation 
+- คลาสนี้เน้นทางเทคนิค นักเรียนที่ประสบความสำเร็จจะต้องสามารถคอมไพล์และรันโค้ด Python ที่ใช้ประโยชน์จาก TensorFlow เพื่อการเรียนรู้เชิงลึก
+- ติดตั้ง Python, TensorFlow และ IDE บางตัว (Jupyter, TensorFlow และอื่นๆ)
+- Use Google CoLab in the cloud
+# Step 1: NVIDIA Video Driver
+- [NVIDIA Video Driver](https://www.nvidia.com/Download/index.aspx?lang=th)
+# Step 2: Visual Studio, C++
+- [Visual Studio](https://visualstudio.microsoft.com/)
+# Step 3: CUDA
+- ดูคู่มือการติดตั้ง TensorFlow เพื่อดูว่าต้องใช้ CUDA เวอร์ชันใด
+- [Tensorflow](https://www.tensorflow.org/install/gpu)
+- จากนั้นดาวน์โหลด CUDA เวอร์ชันนั้น (หรือใหม่กว่า) จากเว็บไซต์ต่อไปนี้
+- [CUDA](https://developer.nvidia.com/cuda-toolkit-archive)
+# Step 4: CuDNN
+- ดูเวอร์ชั่น CUDA ของเราว่าเราติดตั้งเป็นเวอร์ชั่นอะไรแล้วมันลองรับเวอร์ชั่นอะไร
+- [CuDNN](https://developer.nvidia.com/rdp/cudnn-archive)
+# Step 5: Anaconda/Miniconda3
+- สามารถดาวน์โหลด Anaconda ได้จากสิ่งนี้
+- [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+# Step 6: Jupyter
+- เปิด Anaconda Prompt(miniconda3) 
+- conda install -y jupyter
+# Step 7: Environment
+- conda create -y --name tensorflow python=3.9
+- activate tensorflow
+# Step 8: Jupyter Kernel
+- mkdir project 
+- mkdir deep_learning
+- cd project 
+- cd deep_learning
+- conda install ipykernel
+- python -m ipykernel install --user --name tensorflow --display-name "Python 3.9 (tensorflow)"
+- jupyter notebook
+# Step 9: Install TensorFlow/Keras
+- pip install tensorflow
+# Step 10: Testing
+- python
+ ```javascript
+import tensorflow as tf 
+print(tf.__version__)
+print(len(tf.config.list_physical_devices('GPU'))>0)
+ ```
+# PIP Installation activate tensorflow
+- pip install opencv-contrib-python 
+- pip install keras 
+- pip install glob 
+- pip install matplotlib 
+- pip install sklearn 
+- pip install seaborn 
+- pip install pandas 
+- pip install pydot
+- pip install graphviz
