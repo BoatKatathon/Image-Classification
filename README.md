@@ -69,3 +69,5 @@ print(len(tf.config.list_physical_devices('GPU'))>0)
 - pip install pandas 
 - pip install pydot
 - pip install graphviz
+- conda install graphviz
+- conda install python-graphviz
