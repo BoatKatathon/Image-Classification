@@ -1,6 +1,6 @@
 # image-classification
 - BY.Katathron Lapwong ชั้นปีที่ 3 
-# Video learning Tensorflow
+# Video learning Tensorflow Win10-11
 - [credit : Jeff Heaton](https://www.youtube.com/watch?v=OEFKlRSd8Ic)
 # Software Installation 
 - คลาสนี้เน้นทางเทคนิค นักเรียนที่ประสบความสำเร็จจะต้องสามารถคอมไพล์และรันโค้ด Python ที่ใช้ประโยชน์จาก TensorFlow เพื่อการเรียนรู้เชิงลึก
