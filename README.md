@@ -31,8 +31,6 @@
 - conda create -y --name tensorflow python=3.9
 - activate tensorflow
 # Step 8: Jupyter Kernel
-- mkdir project 
-- mkdir deep_learning
 - cd project 
 - cd deep_learning
 - conda install ipykernel
