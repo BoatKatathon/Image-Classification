@@ -10,6 +10,7 @@
 - [NVIDIA Video Driver](https://www.nvidia.com/Download/index.aspx?lang=th)
 # Step 2: Visual Studio, C++
 - [Visual Studio](https://visualstudio.microsoft.com/)
+- ทำการติดตั้ง .NET desktop development
 # Step 3: CUDA
 - ดูคู่มือการติดตั้ง TensorFlow เพื่อดูว่าต้องใช้ CUDA เวอร์ชันใด
 - [Tensorflow](https://www.tensorflow.org/install/gpu)
