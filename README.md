@@ -1,5 +1,7 @@
 # image-classification
 - BY.Katathron Lapwong ชั้นปีที่ 3 
+# Thanks
+- ขอขอบคุณ Jeff Heaton ที่สอนวิธีการใช้งาน Tensorflow ติดตั้ง library ต่าง ๆ ขอขอบคุณอาจารย์พงศกร เจริญเนตรกุล ในส่วนของตัวอย่าง Code และเป็นที่ปรึกษาขณะ Error 
 # Video learning Tensorflow Win10-11
 - [credit : Jeff Heaton](https://www.youtube.com/watch?v=OEFKlRSd8Ic)
 # Software Installation 
