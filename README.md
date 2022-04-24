@@ -29,9 +29,11 @@
 - conda install -y jupyter
 # Step 7: Environment
 - conda create -y --name tensorflow python=3.9
-- activate tensorflow
+- conda activate tensorflow
 # Step 8: Jupyter Kernel
+- mkdir project
 - cd project 
+- mkdir deep_learning
 - cd deep_learning
 - conda install ipykernel
 - python -m ipykernel install --user --name tensorflow --display-name "Python 3.9 (tensorflow)"
@@ -49,8 +51,10 @@ print(len(tf.config.list_physical_devices('GPU'))>0)
 - [Visual Studio code](https://visualstudio.microsoft.com/)
 ## ลง Extensions
  - python
- - jupyter
  - pylance
+ - jupyter
+ - Jupyter Keymap
+ - Jupyter Notebook Renderers
 ### ของตกแต่งใน Vscode
   - vscode-icons
   - Color Highlight
