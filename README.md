@@ -2,6 +2,9 @@
 - BY.Katathron Lapwong ชั้นปีที่ 3 
 # Thanks
 - ขอขอบคุณ Jeff Heaton ที่สอนวิธีการใช้งาน Tensorflow ติดตั้ง library ต่าง ๆ ขอขอบคุณอาจารย์พงศกร เจริญเนตรกุล ในส่วนของตัวอย่าง Code และเป็นที่ปรึกษาขณะ Error 
+# ข้อควรระวังในการลง CUDA & CUDNN
+- Error ในส่วน Cuda และ cudnn ที่เวอร์ชั่นตรงกันแต่มันไม่ซัพพอร์ทกันให้เปลี่ยนไปใช้ Ver.Cuda 11.2 และ Cudnn เป็น 8.1.1 for 11.2 บางครั้งถึงเวอร์ชั่นจะเหมือนกันแต่มันเข้ากันไม่ได้ถ้าใครติด Error ตอน    กำลัง TrainModel ให้ทำการลองเปลี่ยน Version Cuda และ Cudnn ดูนะครับ 
+- จากที่ทำเวอร์ชั่นที่เหมือนกันแต่เข้ากันไม่ได้จะมี Cuda 11.5 Cudnn 8.3.3 for 11.5 
 # Video learning Tensorflow Win10-11
 - [credit : Jeff Heaton](https://www.youtube.com/watch?v=OEFKlRSd8Ic)
 # Software Installation 
